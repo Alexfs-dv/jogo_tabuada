@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Grunt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <section id="section-jogar">
+        <div class="container align-vertical">
+            <div class="icon mt-icon-jogar">
+                <a href="index.html">
+                    <img src="./image/left-arrow_4510657.png" alt="voltar">
+                </a>
+            </div>
+            <div class="painel">
+                <div class="output-painel">
+                    <img src="./image/shape_12702749.png" alt="errado">
+                    <p id="erros">0</p>
+                </div>
+                <div class="output-painel">
+                    <img src="./image/check-mark_5290058.png" alt="certo">
+                    <p id="acertos">0</p>
+                </div>
+                <div class="output-painel">
+                    <img src="./image/dollar_980420.png" alt="moedas" class="ml">
+                    <p id="pontos">0</p>
+                </div>
+            </div>
+            <div class="output">
+                <div id="clock"></div>
+                <div id="output-play"></div>
+                <div class="resultado">
+                    <div id="mensagem" style="margin-top:10px"></div>
+                    <div id="estrelas">
+                        <ul>    
+                        </ul>
+                    </div>
+                    <div id="total-acertos"></div>
+                    <div id="total-erros"></div>
+                    <div id="moedas"></div>
+                </div>
+                <div id="img"></div>
+            </div>
+            
+            <div class="alternatives" id="container-alternativas">
+                <div class="output-alternatives" id="alternativa-1">0</div>
+                <div class="output-alternatives" id="alternativa-2">0</div>
+                <div class="output-alternatives" id="alternativa-3">0</div>
+            </div>
+        </div>
+    </section>
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
